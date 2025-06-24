@@ -23,7 +23,8 @@ public class SecondActivity extends AppCompatActivity {
         meeting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO
+                Intent intent = new Intent(SecondActivity.this, MeetingActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -32,7 +33,8 @@ public class SecondActivity extends AppCompatActivity {
         industryDynamics.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                //TODO
+                Intent intent = new Intent(SecondActivity.this, IndustryDynamics.class);
+                startActivity(intent);
             }
         });
 
