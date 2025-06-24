@@ -18,11 +18,13 @@ public class SecondActivity extends AppCompatActivity {
         ImageButton meeting=findViewById(R.id.imageButton);
         ImageButton  industryDynamics=findViewById(R.id.imageButton2);
 
+
         //会议注册
         meeting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //TODO
+
             }
         });
 
